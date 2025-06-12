@@ -5,6 +5,8 @@
 #include <vector>
 #include <queue>
 #include <stack>
+#include <set>
+
 using namespace std;
 int main() {
     string s;
@@ -98,5 +100,13 @@ int main() {
         i++;
     }
     cout<<endl;
+
+    cout<<"\nSet\n";
+    set<int> set1={1,2,3,4,5,6,7,8,9};
+    deque <int> set2={0};
+    auto it1=set1.find(2);
+    cout<<"Find:- "<<*it1<<endl;
+
+    int arr[10]={1,2,3,4,5,6,7,8,9};
     return 0;
 }
