@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 void main()
 {
     int i[5] = {2, 5, 6, 12, 3};
